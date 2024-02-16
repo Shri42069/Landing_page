@@ -1,0 +1,190 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Roboto:wght@400;700&display=swap');
+
+
+
+html{
+    overflow-y: hidden;
+    
+    
+}
+body{
+    background: radial-gradient(circle at 50% 50%, rgba(254, 255, 255, 1) 0%, rgba(255, 231, 199, 1) 60%);
+    overflow-y: hidden;
+    text-align: center;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+    
+}
+
+.content {
+    position:absolute;
+    width:100%;
+    overflow-y:hidden;
+    top:0;
+    bottom:0;
+  }
+
+
+.logo{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 1rem;
+    
+}
+
+.thank{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 4rem;
+}
+
+.thank h1{
+    font-size: 90px;
+    font-family: 'Roboto', sans-serif;
+    color: #686464;
+}
+
+.thank h3{
+    position: relative;
+    font-size: 90px;
+    font-weight: 100;
+    font-family: 'Caveat', cursive;
+    color: #686464;
+    top: -10rem;
+
+}
+
+.download{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -7rem;
+}
+
+.download h2{
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    color: #686464;
+    font-weight: lighter;
+
+}
+
+.download h1{
+    position: relative;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: #686464;
+    top: -3rem;
+
+}
+
+.download button{
+    position: relative;
+    font-size: 25px;
+    font-weight: bold;
+    color: #d72328;
+    background-color: transparent;
+    border: 2px solid #d72328;
+    border-radius: 20px;
+    top: -6px;
+    padding: 10px;
+}
+a{
+    color: #d72328;
+}
+
+@media (max-width : 440px) {
+
+    html{
+        overflow-y: hidden;
+    }
+
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    .thank{
+        margin: 10px;
+        top: 12rem;
+    }
+
+    .thank h1 {
+        font-size: 30px;
+    }
+    .thank h3{
+        position: relative;
+        top:-3rem;
+        font-size: 30px
+    }
+
+    .download{
+        position: relative;
+        top: 7rem;
+    }
+
+    .download h2{
+        font-size: 22px;
+    }
+
+    .download button{
+        position: relative;
+        top: -3px;
+        padding: 4px 12px;
+        font-size: 14px;
+    }
+
+    .download h1{
+        font-size: 22px;
+        top: -2rem;
+    }
+
+    .logo{
+        width: 270px;
+        left: 2.5rem;
+        top: 6rem;
+    }
+
+
+
+
+}
+
+
+@media (max-width : 380px){
+
+    html{
+        overflow-y: hidden;
+    }
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    .logo{
+        width: 270px;
+        left: 1.8rem;
+    }
+}
+
+@media (max-width : 330px){
+    .logo {
+        width: 240px;
+        left: 0.8rem;
+    }
+    .download h1 {
+        font-size: 19px;
+        top: -1.5rem;
+    }
+
+
+}
